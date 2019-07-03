@@ -3,7 +3,7 @@ import React, {Component} from 'react';
 class Profissionais extends Component {
     render(){
         return(
-            <div>Página de Profissionais</div>
+            <div>hudhasudhasudhaudhasuhduashdusahduashduash ashduasdhasudhasd Página de Profissionais</div>
         )
     }
 }

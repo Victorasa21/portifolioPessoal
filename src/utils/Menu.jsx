@@ -19,9 +19,8 @@ class Menu extends Component {
                     <Link to ="/" className="pure-menu-heading"> Home </Link>
 
                     <ul className="pure-menu-list">
-
-                        <li className="pure-menu-item"><Link to="/Skills"className="pure-menu-link">Minhas Skills</Link></li>
-                        <li className="pure-menu-item"><Link to="/Profissionais"className="pure-menu-link">Experiências Profissionais</Link></li>
+                        <li className="pure-menu-item"><a onClick={() => this.props.changePage("Skills")}>Minhas Skills</a></li>
+                        <li className="pure-menu-item"><a onClick={() => this.props.changePage("Profissionais")}>Experiências Profissionais</a></li>
                         <li className="pure-menu-item"><Link to="/Academicas"className="pure-menu-link">Experiências Acadêmicas</Link></li>
                         <li className="pure-menu-item"><Link to="/Voluntario"className="pure-menu-link">Trabalhos Voluntários</Link></li>
 
