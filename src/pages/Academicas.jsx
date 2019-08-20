@@ -3,7 +3,11 @@ import React, {Component} from 'react';
 class Academicos extends Component {
     render(){
         return(
-            <div>Página de Academicos</div>
+            <div>
+                <div className ="header">
+                    <p1>Página de Experiências Acadêmicas</p1>
+                </div>                
+            </div> 
         )
     }
 }

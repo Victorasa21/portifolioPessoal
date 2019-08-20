@@ -10,19 +10,19 @@ import { BrowserRouter, Switch, Route } from 'react-router-dom'
 import * as serviceWorker from './serviceWorker';
 
 ReactDOM.render(
-<BrowserRouter>
-    <Switch>
+    <BrowserRouter>
+        <Switch>
 
-       <Route path="/" exact={true} component ={App} />
-       <Route path="/Skills" component ={Skills} />
-       <Route path="/Voluntario" component ={Voluntario} />
-       <Route path="/Academicas" component ={Academicas} />
-       <Route path="/Profissionais" component ={Profissionais} />
- 
-    </Switch>
-   
-</BrowserRouter>
-, document.getElementById('root'));
+            <Route path="/" exact={true} component={App} />
+            <Route path="/Skills" component={Skills} />
+            <Route path="/Voluntario" component={Voluntario} />
+            <Route path="/Academicas" component={Academicas} />
+            <Route path="/Profissionais" component={Profissionais} />
+
+        </Switch>
+
+    </BrowserRouter>
+    , document.getElementById('root'));
 
 // If you want your app to work offline and load faster, you can change
 // unregister() to register() below. Note this comes with some pitfalls.

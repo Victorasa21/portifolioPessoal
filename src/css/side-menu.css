@@ -80,9 +80,8 @@ appears on the left side of the page.
 */
 
 #menu {
-    margin-left: -150px; /* "#menu" width */
     width: 200px;
-    position: fixed;
+    height: 200vh;
     top: 0;
     left: 0;
     bottom: 0;
@@ -245,4 +244,12 @@ Hides the menu at `48em`, but modify this based on your app's needs.
         position: relative;
         left: 150px;
     }
+}
+
+.mainContainer{
+    display: flex;
+}   
+
+.menuContainer{
+  height: 100%;  
 }
