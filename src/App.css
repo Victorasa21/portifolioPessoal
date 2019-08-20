@@ -35,3 +35,19 @@
 .pure-menu {
   position:fixed !important
 }
+
+.circle{
+  background-color: #aaa;
+  border-radius: 50%;
+  width: 250px;
+  height: 250px;
+  overflow: hidden;
+  position: relative;
+  left:40%
+}
+
+.circle img {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+}

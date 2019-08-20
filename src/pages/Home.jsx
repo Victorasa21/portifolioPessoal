@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import foto from "../images/foto_Victor.jpg"
 
 class Home extends Component {
     render() {
@@ -9,16 +10,15 @@ class Home extends Component {
                     <h1>Victor Augusto Santos Almeida</h1>
                     <h2>Um pouco sobre a minha história.....</h2>
                 </div>
+                <div className="circle">
+                    <img src={foto} alt="blabla" />
+                </div>
                 <div className="content">
                     <h2 className="content-subhead">How to use this layout</h2>
                     <p>
                         To use this layout, you can just copy paste the HTML, along with the CSS in <a href="/css/layouts/side-menu.css" alt="Side Menu CSS">side-menu.css</a>, and the JavaScript in <a href="/js/ui.js">ui.js</a>. The JS file uses vanilla JavaScript to simply toggle an <code>active</code> className that makes the menu responsive.
                 </p>
 
-                    <h2 className="content-subhead">Now Let's Speak Some Latin</h2>
-                    <p>
-                        Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-                </p>
                 </div>
 
             </div>
