@@ -253,11 +253,3 @@ Hides the menu at `48em`, but modify this based on your app's needs.
 .menuContainer{
   height: 100%;  
 }
-.circle{
-    background-color: #aaa;
-    border-radius: 50%;
-    width: 150px;
-    height: 150px;
-    overflow: hidden;
-    position: relative;
-}
